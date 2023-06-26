@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get(
 DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1',
-                 'shrouded-shore-43684.herokuapp.com']
+                 'https://shrouded-shore-43684-80d50b8a70ab.herokuapp.com/']
 
 
 # Application definition
