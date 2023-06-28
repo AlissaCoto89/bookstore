@@ -28,7 +28,8 @@ SECRET_KEY = os.environ.get(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['young-ocean-23481-79dfd0be94dd.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost',
+                 'young-ocean-23481-79dfd0be94dd.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
